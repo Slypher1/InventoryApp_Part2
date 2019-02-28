@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="editor_group">
+        <item name="android:textSize">@dimen/dimen_text_group</item>
+        <item name="android:layout_marginTop">@dimen/margin_editor_layout</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="group_layout">
+        <item name="android:padding">@dimen/group_padding</item>
+        <item name="android:background">@drawable/group</item>
+    </style>
+
+    <style name="editor_label">
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="item_list_view">
+        <item name="android:textSize">@dimen/dimen_text_item_product</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_hint_size</item>
+    </style>
+
+    <style name="button_plus_minus">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/button_padding_icon</item>
+        <item name="android:background">@drawable/button_effect</item>
+    </style>
+
+</resources>

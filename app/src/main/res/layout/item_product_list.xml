@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="product"
+            type="com.example.android.inventoryapp.Product" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_item_list"
+        android:background="@drawable/group"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_item_list">
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/item_height"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name_text_view"
+                style="@style/item_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_product_height"
+                android:lines="2"
+                android:maxLines="2"
+                android:text="@{product.name}"
+                android:textColor="@color/colorPrimaryDark"
+                tool:text="Product Name Product Name" />
+
+            <TextView
+                android:id="@+id/product_quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{String.format(@string/quantity_text_view, product.quantity)}"
+                tool:text="Quantity: 12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/zero"
+            android:layout_height="@dimen/item_height"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_price_text_view"
+                style="@style/item_list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:gravity="end"
+                android:text="@{String.format(@string/currency, product.price)}"
+                tool:text="4514,16 €" />
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/sale_button"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:background="@drawable/button_effect"
+                android:drawablePadding="@dimen/button_drawable_padding"
+                android:drawableStart="@drawable/ic_attach_money"
+                android:paddingEnd="@dimen/button_padding_end"
+                android:paddingStart="@dimen/button_padding_start"
+                android:text="Sell" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_editor_layout">16dp</dimen>
+    <dimen name="dimen_text_item_product">18sp</dimen>
+    <dimen name="dimen_text_group">22sp</dimen>
+    <dimen name="margin_list_view">16dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="item_height">72dp</dimen>
+    <dimen name="item_product_height">48dp</dimen>
+    <dimen name="padding_item_list">8dp</dimen>
+    <dimen name="icon_plus_minus">32dp</dimen>
+    <dimen name="padding_price">32dp</dimen>
+    <dimen name="radius_button">8dp</dimen>
+    <dimen name="button_height">36dp</dimen>
+    <dimen name="button_padding_start">12dp</dimen>
+    <dimen name="button_padding_end">16dp</dimen>
+    <dimen name="button_drawable_padding">8dp</dimen>
+    <dimen name="button_icon_dimen">18dp</dimen>
+    <dimen name="button_marginTop">32dp</dimen>
+    <dimen name="group_padding">16dp</dimen>
+    <dimen name="text_hint_size">12sp</dimen>
+    <dimen name="button_plus_minus_size">24dp</dimen>
+    <dimen name="button_padding_icon">3dp</dimen>
+</resources>

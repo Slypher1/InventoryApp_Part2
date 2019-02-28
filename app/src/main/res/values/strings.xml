@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="product_name_hint">Product Name</string>
+    <string name="price_hint">Price (€)</string>
+    <string name="quantity_hint">Quantity</string>
+    <string name="supplier_name_hint">Supplier Name</string>
+    <string name="supplier_phone_number_hint">Supplier Phone Number</string>
+    <string name="error_save">Error with saving product</string>
+    <string name="ok_save">Product saved</string>
+    <string name="ok_update">Product updated</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="table_contain">Product Table contain %1$s rows\n\n</string>
+    <string name="quantity_text_view">Quantity: %1$s</string>
+    <string name="currency">%1$s €</string>
+    <string name="overview">Overview:</string>
+    <string name="supplier_details">Supplier details:</string>
+    <string name="editor_title_new_product">New Product</string>
+    <string name="editor_title_edit_product">Edit Product</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="contact_supplier">Contact the Supplier</string>
+    <string name="empty_view_title_text">Database Empty</string>
+    <string name="empty_view_subtitle_text">Get started by adding a new product</string>
+    <string name="action_delete_all_products">Delete all products</string>
+    <string name="delete_all_products_msg">Delete all products in the database? This action is not reversible</string>
+    <string name="camp_required">This field is mandatory</string>
+    <string name="credits">Credits</string>
+    <string name="icon_credit">Icon of this app is made by Smashicons from www.flaticon.com is licensed by CC 3.0 BY</string>
+
+    <string name="error_query_unknown_uri">Cannot query unknown URI: %1$s</string>
+    <string name="error_insert_unknown_uri">Insertion is not supported for %1$s</string>
+    <string name="error_delete_unknown_uri">Deletion is not supported for %1$s</string>
+    <string name="error_type_unknown_uri">Unknown URI %1$s with match %2$s</string>
+    <string name="error_insert_name">Product requires a name</string>
+    <string name="error_insert_price">Product requires valid price</string>
+    <string name="error_insert_quantity">Product requires valid quantity</string>
+    <string name="error_insert_supplier_name">Product requires a valid supplier name</string>
+    <string name="error_insert_phone_number_supplier_name">Product requires a valid phone number</string>
+    <string name="error_no_item">Product not available, insufficient quantity</string>
+    <string name="error_quantity">Quantity must be greater than zero</string>
+    <string name="error_save_data">please, enter the correct information before continuing.</string>
+
+
+</resources>
